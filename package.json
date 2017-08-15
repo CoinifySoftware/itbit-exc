@@ -1,0 +1,26 @@
+{
+  "name": "itbit-exc",
+  "version": "1.0.0",
+  "description": "An NPM package for utilizing the ItBit exchange API",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/**/*.test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoinifySoftware/itbit-exc"
+  },
+  "author": "Morten Nissen <mbn@coinify.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "1.5.2",
+    "console-log-level": "1.2.1",
+    "itbit": "0.0.10"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "mocha-bamboo-reporter": "*",
+    "mockery": "1.4.0"
+  }
+}
